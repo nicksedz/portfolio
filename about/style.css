@@ -1,0 +1,175 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+#wrapper {
+    width: 100%;
+    margin: 0px;
+}
+
+body
+{
+background-color: #000;
+background-size: cover;
+}
+
+@font-face {
+  font-family: 'caslon';
+  src: url("../font/Big Caslon Medium.ttf");
+  }
+
+    @font-face {
+  font-family: 'titling bold';
+  src: url("../font/Titling-Gothic-Bold.ttf");
+  }
+
+  @font-face {
+  font-family: 'titling medium';
+  src: url("../font/Titling-Gothic-Medium.ttf");
+  }
+
+    @font-face {
+  font-family: 'titling regular';
+  src: url("../font/Titling-Gothic-Regular.ttf");
+  }
+
+      @font-face {
+  font-family: 'titling extended';
+  src: url("../font/sedz-extend.ttf");
+  }
+
+        @font-face {
+  font-family: 'titling extended fb';
+  src: url("../font/TitlingGothicFBExtended-Bold.woff2");
+  }
+
+  @font-face {
+  font-family: 'Pesotsky-Victor-Eskosserif';
+  src: url("../font/Pesotsky-Victor-Eskosserif.otf"); /* IE no comprende format()! */
+}
+
+
+@font-face
+{
+font-family: extendo;
+src: url("../font/AKZ.woff");
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+	text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #1B1B1B	;
+	border-bottom: 1px solid white;
+}
+
+.text {
+	position: fixed;
+	font-family: "extendo", Verdana, Arial, sans-serif;
+	color: #fff;
+	font-size:16px !important;
+	letter-spacing: 2px;
+	top: 380px;
+	left: 180px;
+	width: 300px;
+	line-height: 22px;
+}
+
+.texts {
+	font-family: extendocord, Verdana, Arial, sans-serif;
+	color: #fff;
+	font-size:10px;
+	letter-spacing: 3px;	
+}
+
+.h1 {
+	position: fixed;
+	font-family: "titling extended fb", Verdana, Arial, sans-serif;
+	letter-spacing: -4px;
+	top: 150px;
+	color: #fff;
+	left: 180px;
+	font-size:80px !important;
+}
+	
+.abtpg {
+	position: absolute;
+	font-family: extendo, Verdana, Arial, sans-serif;
+	letter-spacing: -3px;
+	top: 40px;
+	color: #fff;
+	font-size: 40px !important;
+}
+
+.projectslabel {
+	font-family: extendo, Verdana, Arial, sans-serif;
+	letter-spacing: 0px;
+	top: 40px;
+	color: #fff;
+	font-size: 34px !important;
+}
+
+.projects {
+	font-family: extendo, Verdana, Arial, sans-serif;
+	letter-spacing: 0px;
+	top: 40px;
+	color: #000;
+	font-size: 34px !important;
+	text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff;
+}
+
+
+.about {
+	font-family: extendocord, Verdana, Arial, sans-serif;
+	position: fixed;
+	text-decoration: none;
+	left: 5px;
+	top: 30px;
+	color: #fff;
+	font-size: 44px;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	.text {
+	position: fixed;
+	font-family: "extendo", Verdana, Arial, sans-serif;
+	color: #fff;
+	font-size: 10px !important;
+	letter-spacing: 2px;
+	top: 240px;
+	left: 30px !important;
+	width: 700px !important;
+	line-height: 14px;
+	}
+
+	.h1 {
+	position: fixed;
+	font-family: "titling extended fb", Verdana, Arial, sans-serif;
+	letter-spacing: -2px;
+	top: 80px;
+	color: #fff;
+	left: 10px !important;
+	font-size: 30px !important;
+	line-height: 38px;
+	}
+}
+
+
+
+
+
+
+
+

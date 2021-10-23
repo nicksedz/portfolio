@@ -1,0 +1,207 @@
+@charset "UTF-8";
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "din-2014", sans-serif;
+  font-style: "normal";
+  letter-spacing: 0.02em;
+  line-height: 2.0em;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-feature-settings: "palt"; }
+  @media screen and (max-width: 1200px) {
+    html {
+      font-size: 13pt; } }
+  @media screen and (max-width: 700px) {
+    html {
+      font-size: 13pt; } }
+  @media screen and (max-width: 400px) {
+    html {
+      font-size: 12pt; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.discription {
+  text-align: center;
+  margin-bottom: 50px; }
+
+#warning {
+  color: #ff66aa;
+  border: 1px solid #ff66aa;
+  display: inline-block;
+  padding: 4px 6px; }
+  #warning .ja {
+    margin: 3px;
+    text-align: center;
+    line-height: 1.5em; }
+  #warning .en {
+    margin: 3px;
+    text-align: center;
+    line-height: 1.5em; }
+
+.myBr {
+  display: none; }
+  @media screen and (max-width: 1200px) {
+    .myBr {
+      display: none; } }
+  @media screen and (max-width: 700px) {
+    .myBr {
+      display: inline; } }
+  @media screen and (max-width: 400px) {
+    .myBr {
+      display: inline; } }
+
+::-moz-selection {
+  background: #cccccc;
+  color: #000; }
+
+::selection {
+  background: #cccccc;
+  color: #000; }
+
+.mouse {
+  opacity: 1.0; }
+  .mouse:hover {
+    opacity: 0.2; }
+
+a {
+  color: #000; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff; }
+
+h1 {
+  margin: 0px;
+  margin-top: 10px;
+  padding: 100px 0px 80px 0;
+  font-weight: 200;
+  text-align: center; }
+
+.download {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 100px; }
+  .download img {
+    width: 200px; }
+
+.ja {
+  margin: 20px;
+  text-align: justify;
+  letter-spacing: 0.05em; }
+  @media screen and (max-width: 1200px) {
+    .ja {
+      font-size: 12pt; } }
+  @media screen and (max-width: 700px) {
+    .ja {
+      font-size: 12pt; } }
+  @media screen and (max-width: 400px) {
+    .ja {
+      font-size: 11pt; } }
+
+.en {
+  margin: 20px;
+  text-align: justify; }
+  @media screen and (max-width: 1200px) {
+    .en {
+      text-align: justify; } }
+  @media screen and (max-width: 700px) {
+    .en {
+      text-align: left; } }
+  @media screen and (max-width: 400px) {
+    .en {
+      text-align: left; } }
+
+.credit {
+  width: 100%;
+  margin: 100px 0 20px 0;
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 1.5em; }
+  .credit .creditContainer {
+    margin: 15px; }
+
+.video {
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-bottom: 50px; }
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.topImgs {
+  margin-bottom: 80px; }
+  .topImgs img {
+    width: 100%;
+    display: inline-block;
+    vertical-align: bottom; }
+
+.imgs {
+  padding: 0;
+  margin: 0;
+  margin-top: 50px; }
+  .imgs img {
+    display: inline-block;
+    width: 25%;
+    border: 0;
+    vertical-align: bottom; }
+    @media screen and (max-width: 1200px) {
+      .imgs img {
+        width: 25%; } }
+    @media screen and (max-width: 700px) {
+      .imgs img {
+        width: 50%; } }
+    @media screen and (max-width: 400px) {
+      .imgs img {
+        width: 50%; } }
+
+.app {
+  text-align: center;
+  margin: 30px;
+  margin-top: 50px; }
+
+.icon {
+  text-align: center; }
+
+.gif {
+  margin: 0;
+  margin-top: 0px; }
+  .gif img {
+    width: 100%;
+    border-radius: 0px; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 8pt;
+  padding: 50px 0 55px 0;
+  line-height: 1.5em; }
+  footer .github {
+    margin-bottom: 20px; }
+  @media screen and (max-width: 1200px) {
+    footer {
+      font-size: 9pt; } }
+  @media screen and (max-width: 700px) {
+    footer {
+      font-size: 9pt; } }
+  @media screen and (max-width: 400px) {
+    footer {
+      font-size: 8pt; } }
+
+.kitasenjudesign {
+  width: 160px;
+  margin-top: 30px; }

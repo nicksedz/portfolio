@@ -1,0 +1,199 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+#wrapper {
+    width: 100%;
+    margin: 0px;
+}
+
+.responsive-header {
+  font-size: 20px;
+  width: calc(100% - 120px);
+  padding-top: 100px;
+  /*margin-left: 80px;*/
+  /*margin-right: 80px;*/
+}
+
+.responsive-copy {
+  font-size: 14px;
+  line-height: 20px;
+  /*margin-left: 80px;*/
+  /*margin-right: 80px;*/
+  margin-bottom: 100px;
+}
+
+p {
+	color: #000;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: #fff;
+}
+
+body
+{
+background-color: #fff;
+background-size: cover;
+  font-family:        ‘Lato’, Arial, sans-serif; 
+  margin:             2vw;
+  width: unset;
+}
+
+@font-face {
+  font-family: 'caslon';
+  src: url("font/Big Caslon Medium.ttf");
+  }
+
+    @font-face {
+  font-family: 'titling bold';
+  src: url("font/Titling-Gothic-Bold.ttf");
+  }
+
+  @font-face {
+  font-family: 'titling medium';
+  src: url("font/Titling-Gothic-Medium.ttf");
+  }
+
+    @font-face {
+  font-family: 'titling regular';
+  src: url("font/Titling-Gothic-Regular.ttf");
+  }
+
+      @font-face {
+  font-family: 'titling extended';
+  src: url("font/sedz-extend.ttf");
+  }
+
+        @font-face {
+  font-family: 'titling extended fb';
+  src: url("font/TitlingGothicFBExtended-Bold.woff2");
+  }
+
+  @font-face {
+  font-family: 'Pesotsky-Victor-Eskosserif';
+  src: url("font/Pesotsky-Victor-Eskosserif.otf"); /* IE no comprende format()! */
+}
+
+
+@font-face
+{
+font-family: extendo;
+src: url("font/AKZ.woff");
+}
+
+a:link {
+	text-decoration: none;
+	color: #fff	;
+}
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #1B1B1B	;
+	text-decoration: none;	
+}
+
+.text {
+	position: fixed;
+	font-family: "caslon", Verdana, Arial, sans-serif;
+	color: #fff;
+	font-size:18px;
+	letter-spacing: 2px;
+	top: 380px;
+	left: 180px;
+	width: 300px;
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	.responsive-header {
+  font-size: 20px;
+  /*width: 100%;*/
+  margin-right: 0px;
+}
+
+.responsive-copy {
+  font-size: 14px;
+  line-height: 20px;
+  /*width: 100%;*/
+  margin-right: 0px;
+}
+
+  	.text {
+	position: fixed;
+	font-family: "extendo", Verdana, Arial, sans-serif;
+	color: #fff;
+	font-size: 36px !important;
+	letter-spacing: 2px;
+	top: 540px;
+	left: 90px !important;
+	width: 700px !important;
+	}
+
+	.h1 {
+	position: fixed;
+	font-family: "titling extended fb", Verdana, Arial, sans-serif;
+	letter-spacing: -4px;
+	top: 150px;
+	color: #fff;
+	left: 10px !important;
+	font-size:20px;
+	}
+}
+
+.texts {
+	font-family: extendocord, Verdana, Arial, sans-serif;
+	color: #fff;
+	font-size:10px;
+	letter-spacing: 3px;
+	
+}
+
+/*.h1 {
+	position: fixed;
+	font-family: "titling extended fb", Verdana, Arial, sans-serif;
+	letter-spacing: -4px;
+	top: 150px;
+	color: #fff;
+	left: 180px;
+	font-size:80px;
+	}*/
+	
+.abtpg {
+	position: absolute;
+	font-family: extendo, Verdana, Arial, sans-serif;
+	letter-spacing: -3px;
+	top: 40px;
+	color: #000;
+	font-size:60px;
+	text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff;
+	}
+
+.abtpg:hover {
+		text-shadow: -1px 0 #3C3C3C,0 1px #3C3C3C,1px 0 #3C3C3C,0 -1px #3C3C3C;
+	}
+
+.about {
+	font-family: extendocord, Verdana, Arial, sans-serif;
+	position: fixed;
+	text-decoration: none;
+	left: 5px;
+	top: 30px;
+	color: #fff;
+	font-size:50px;
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	    -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-30deg);
+
+}
+
+
+
+
